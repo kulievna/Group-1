@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.text{
+    color: azure;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.container{
+    position: relative;
+    width: 50%;
+}
+.img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owerlay{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    transition:  1 ease-in-out;
+    overflow: hidden;
+}
+.container:hover .owerlay{
+    width: 100%;
+}

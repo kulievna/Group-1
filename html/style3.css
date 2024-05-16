@@ -1,0 +1,28 @@
+p {
+    margin: 30px;
+    /* border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+   */
+  }
+  p.uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  p.lowercase {
+    text-transform: lowercase;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 10px;
+    text-shadow: 3px 3px 2px red;
+  }
+  
+  p.capitalize {
+    text-transform: capitalize;
+    font-variant: small-caps;
+  }
+  a{
+    text-decoration: none;
+  }
+  

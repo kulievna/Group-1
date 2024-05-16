@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 50px;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-duration:5s ;
+    animation-name: don;
+}
+@keyframes don {
+    from{
+        background-color: hwb(159 2% 1%);
+    }
+    to{
+        background-color: rgb(8, 8, 8);
+    }
+}
+

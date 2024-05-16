@@ -1,0 +1,93 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul{
+    width: 200px;
+    display: block;
+    border: 1px solid black;
+  }
+  
+  li{
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  li:last-child{
+    border-bottom: none;
+  }
+li:active{
+  background-color: yellowgreen;
+}
+  li:hover{
+    background-color: aquamarine;
+  }
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .boyuk{
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    z-index: 1;
+    box-shadow:0px 8px 16px 0px rgba(0, 0, 0, .5);
+    padding: 12px 16px;
+  }
+   
+  .dropdown:hover  .boyuk{
+    display: block;
+  }
+
+  .box{
+    position: relative;
+    display: inline-block;
+  }
+  .knopka{
+    background-color: blueviolet;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .container div{
+       border-bottom: 1px solid black;
+       text-align: center;
+  }
+  .container{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 300px;
+
+  }
+  .container div:hover{
+  background-color: aquamarine;
+  }
+
+.box:hover .container{
+  display: block;
+    
+}
+
+.square{
+  border: 5px solid ;
+  width: 600px;
+  height: 300px;
+  background-color: rgb(88, 114, 105);
+
+  border-image: url(https://png.pngtree.com/png-clipart/20220628/ourmid/pngtree-black-minimalist-border-png-image_5329495.png)  50 round ;
+}
+.yazi{
+  border: 2px solid greenyellow;
+  width: 200px;
+white-space: nowrap ;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.square:hover{
+  transition: all 1s ease;
+  transform: scale(2);
+}
